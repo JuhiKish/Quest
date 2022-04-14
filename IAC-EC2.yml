@@ -2,7 +2,6 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: >-
   This Template will create an Amazon EC2 instance running the Amazon Linux AMI
   with KeyName,InstanceType and SSHLocation Parameter and Region Mapping for AMI
-  Pseudo Parameter in CF : AWS::Region
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance

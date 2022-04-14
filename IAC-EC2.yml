@@ -3,7 +3,6 @@ Description: >-
   This Template will create an Amazon EC2 instance running the Amazon Linux AMI
   with KeyName,InstanceType and SSHLocation Parameter and Region Mapping for AMI
   Pseudo Parameter in CF : AWS::Region
-  Verify the AMI Ids in the below Mappings section, launch this same template in different regions specified in mapping
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance

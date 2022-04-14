@@ -1,0 +1,7 @@
+FROM ubuntu:12.04
+MAINTAINER JuhiKukreja
+RUN apt-get update
+RUN apt-get install apache2
+COPY /var/www/html/index.html /etc/apache2/index.html
+EXPOSE 80
+CMD ['service','start']
